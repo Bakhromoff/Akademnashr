@@ -121,8 +121,11 @@ object-fit: cover;
   background-color: rgba(37, 36, 32, 0.5);
 }
 .footer-link{
-  width: 224px;
-  height: 19px;
+  font-size: 16px;
+  line-height: 19px;
+}
+.site-footer-links{
+width: 224px;
 }
 ul{
   list-style: none;
