@@ -121,6 +121,6 @@ object-fit: cover;
   width: 224px;
   height: 19px;
 }
-.site-footer-links{
-  text-decoration: none;
+ul a{
+text-decoration: none;
 }
