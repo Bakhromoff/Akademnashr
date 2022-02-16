@@ -18,7 +18,7 @@ body{
   list-style: none;}
 
   .main-link{
-font-weight: bold;
+font-weight: 700;
 font-size: 13px;
 line-height: 15px;
 letter-spacing: 0.5px;
@@ -40,8 +40,9 @@ width: 387px;
   height: 3px;
 }
 .hero-heading{
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 40px;
+font-weight: 700;
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 40px;
 line-height: 1.2;
 letter-spacing: 0.5px;
 }
