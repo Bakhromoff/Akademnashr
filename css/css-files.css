@@ -61,7 +61,7 @@ letter-spacing: 0.5px;
 }
 /* FEATURE */
 .feature-heading{
-font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 width: 435px;
 font-size: 60px;
 line-height: 86px;
@@ -95,7 +95,7 @@ letter-spacing: 0.5px;
   color: #fff;
 }
 .promo-heading{
-font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 width: 373px;
 height: 96px;
 font-size: 40px;
