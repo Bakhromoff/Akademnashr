@@ -3,7 +3,7 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 *:focus{
-  outline: 2px solid #ff7500;
+  outline: dotted #ff7500;
   outline-offset: 3px;
 }
 .site-header{
