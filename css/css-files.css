@@ -43,11 +43,16 @@ padding-top: 16px; padding-bottom: 16px;
 .sitenav-link:active{
   opacity: 0.6;
 }
+
 .sitenav-list{
   padding: 0;
   display: flex;
   list-style: none;
 }
+.sitenav-item{
+  margin: 32px;
+}
+
 .main-link{
   display: inline-block;
 font-weight: bold;
@@ -144,7 +149,7 @@ text-decoration: none;
 font-family: 'Roboto Condensed', sans-serif;
 font-size: 24px;
 line-height: 28.8px;
-letter-spacing: normal;0.5px
+letter-spacing: normal;
 }
 .feature-info{
 font-size: 16px;
