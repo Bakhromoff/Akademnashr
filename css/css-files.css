@@ -17,6 +17,9 @@ padding-top: 16px; padding-bottom: 16px;
 .logo-link{
   transition: opacity 0.4s ease;
 }
+.logo-link img{
+  display: block;
+}
 .logo-link:hover{
   opacity: 0.8;
 }
@@ -239,6 +242,7 @@ transition: color 0.4s ease, opacity 0.4s ease;
   display: flex;
 }
 .social-networks a{
+  display: block;
   transition: color 0.4s ease, opacity 0.4s ease;
 }
 .social-networks a:hover{
@@ -246,6 +250,9 @@ color: #ff7500;
 }
 .social-networks a:active{
   opacity: 0.6;
+}
+.social-networks svg{
+  display: block;
 }
 ul{
   list-style: none;
