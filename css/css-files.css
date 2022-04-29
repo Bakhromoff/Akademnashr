@@ -8,12 +8,12 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 .container{
-width: 100%;
-max-width: 1140px;
-padding-left: 20px;
-padding-right: 20px;
-margin-left: auto;
-margin-right: auto;
+  width: 100%;
+  max-width: 1140px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .site-header-container{
   display: flex;
@@ -25,9 +25,9 @@ margin-right: auto;
   outline-offset: 3px;
 }
 .site-header{
-border-top: 5px solid #ff7500;
-background-color: #fff;
-padding-top: 16px; padding-bottom: 16px;
+  border-top: 5px solid #ff7500;
+  background-color: #fff;
+  padding-top: 16px; padding-bottom: 16px;
 }
 .logo-link{
   transition: opacity 0.4s ease;
@@ -76,38 +76,39 @@ padding-top: 16px; padding-bottom: 16px;
   margin: 0;
 }
 .main-link{
-display: inline-block;
-font-weight: bold;
-font-size: 13px;
-line-height: 15px;
-letter-spacing: 0.5px;
-color: #ffffff;
-text-decoration: none;
-padding: 12px 24px;
-border-radius: 4px;
-background-color: #FF7500;
-transition: opacity 0.4s ease;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  background-color: #FF7500;
+  transition: opacity 0.4s ease;
 }
 .main-link:hover{
   opacity: 0.8;
 }
 .main-link:active{
-opacity: 0.6;
+  opacity: 0.6;
 }
 /* HERO */
 .site-hero-container{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 .site-hero{
   background-color: #252420;
   color: #fff;
 }
 .hero-objects{
-padding-top: 80px;
-padding-bottom: 80px;
-width: 387px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 387px;
 }
 .orange-hr{
   margin: 0;
@@ -117,28 +118,30 @@ width: 387px;
   height: 3px;
 }
 .hero-heading{
-margin-top: 0;
-margin-bottom: 24px;
-font-weight: 700;
-font-family: 'Roboto Condensed', sans-serif;
-font-size: 40px;
-line-height: 1.2;
-letter-spacing: 0.5px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
 }
 .hero-text{
-margin-top: 0;
-margin-bottom: 32px;
-width: 387px;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.5px;
+  margin-top: 0;
+  margin-bottom: 32px;
+  width: 387px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
 }
 .hero-img{
   box-shadow: 24px 24px 0 0 rgba(255, 117, 0, 0.6);
-  margin-top: 40px;
   width: 510px;
   height: 510px;
   border-radius: 8px;
+  position: absolute;
+  top: 40px;
+  right: 20px;
 }
 /* FEATURE */
 .features{
@@ -156,14 +159,14 @@ letter-spacing: 0.5px;
   display: flex;
 }
 .feature-heading{
-margin-top: 0;
-margin-bottom: 72px;
-font-family: 'Roboto Condensed', sans-serif;
-width: 435px;
-font-size: 60px;
-line-height: 86px;
-letter-spacing: 0.5px;
-text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 72px;
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 435px;
+  font-size: 60px;
+  line-height: 86px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
 }
 .feature{
   margin-right: 40px;
@@ -184,68 +187,72 @@ text-decoration: none;
 
 }
 .feature-title{
-margin-top: 0;
-margin-bottom: 12px;
-font-family: 'Roboto Condensed', sans-serif;
-font-size: 24px;
-line-height: 28.8px;
-letter-spacing: normal;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 24px;
+  line-height: 28.8px;
+  letter-spacing: normal;
 }
 .feature-info{
-margin: 0;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.5px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
 }
 /* PROMO */
 .promo{
-padding-top: 120px;
-padding-bottom: 160px;
+  padding-top: 120px;
+  padding-bottom: 160px;
 }
 .promo-inner{
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 64px;
-border-radius: 12px;
-background-color: #252420;
-color: #fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 64px;
+  border-radius: 12px;
+  background-color: #252420;
+  color: #fff;
 }
 .promo-heading{
-margin-top: 0;
-margin-bottom: 24px;
-font-family: 'Roboto Condensed', sans-serif;
-width: 373px;
-height: 96px;
-font-size: 40px;
-line-height: 48px;
-letter-spacing: 0.5px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 373px;
+  height: 96px;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.5px;
 }
 .promo-content{
-width: 440px;
+  width: 440px;
 }
 .promo-info-wrapper{
   margin-bottom: 24px;
 }
 .promo-info{
-margin-top: 0;
-margin-bottom: 12px;
-width: 440px;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.5px;
+  margin-top: 0;
+  margin-bottom: 12px;
+  width: 440px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
 }
 .promo-info:last-child{
   margin: 0;
 }
 .promo-highlight{
-color: #FF7500;
+  color: #FF7500;
 }
 .promo-img{
-border-radius:15px;
-width: 440px;
-height: 440px;
-object-fit: cover;
+  position: absolute;
+  right: 64px;
+  top: -85px;
+  border-radius:15px;
+  width: 440px;
+  height: 440px;
+  object-fit: cover;
 }
 /* SITE-FOOTER */
 .site-footer{
@@ -283,10 +290,10 @@ object-fit: cover;
   margin-right: 0;
 }
 .site-footer-link{
-margin-bottom: 16px;
-padding: 0;
-width: 224px;
-transition: color 0.4s ease, opacity 0.4s ease;
+  margin-bottom: 16px;
+  padding: 0;
+  width: 224px;
+  transition: color 0.4s ease, opacity 0.4s ease;
 }
 .site-footer-link:last-child{
   margin-bottom: 0;
@@ -306,14 +313,14 @@ transition: color 0.4s ease, opacity 0.4s ease;
   margin-right: 16px;
 }
 .social-networks li:last-child{
-margin-right: 0;
+  margin-right: 0;
 }
 .social-networks a{
   display: block;
   transition: color 0.4s ease, opacity 0.4s ease;
 }
 .social-networks a:hover{
-color: #ff7500;
+  color: #ff7500;
 }
 .social-networks a:active{
   opacity: 0.6;
@@ -325,6 +332,6 @@ ul{
   list-style: none;
 }
 ul a{
-text-decoration: none;
-color: #252420;
+  text-decoration: none;
+  color: #252420;
 }
