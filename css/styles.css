@@ -148,13 +148,17 @@ img{
   letter-spacing: 0.5px;
   color: #ffffff;
   text-decoration: none;
-  padding: 12px 24px;
+  padding: 10px 22px;
   border-radius: 4px;
   background-color: var(--orange-color);
-  transition: opacity 0.4s ease;
+  border: 2px solid transparent;
+  transition: opacity 0.4s ease, color 0.4s ease,
+  background-color 0.4s ease, border-color 0.4s ease;
 }
 .orange-button:hover{
-  opacity: 0.8;
+  color: var(--orange-color);
+  background-color: #fff;
+  border-color: var(--orange-color);
 }
 .orange-button:active{
   opacity: 0.6;
@@ -222,6 +226,8 @@ img{
 .futures__list{
   padding: 0;
   display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 .features__heading{
   margin-top: 0;
@@ -232,6 +238,10 @@ img{
   line-height: 86px;
   letter-spacing: 0.5px;
   text-decoration: none;
+}
+.features__item{
+  list-style: none;
+  max-width: 314px;
 }
 .features__item:not(:last-child){
   margin-right: 40px;
@@ -332,12 +342,16 @@ img{
   padding: 0;
   display: flex;
 }
+.social-networks__item{
+  list-style: none;
+}
 .social-networks__item:not(:last-child){
   margin-right: 16px;
 }
 .social-networks__link{
   display: block;
   transition: color 0.4s ease, opacity 0.4s ease;
+  color: #000;
 }
 .social-networks__link:hover{
   color: var(--orange-color);
